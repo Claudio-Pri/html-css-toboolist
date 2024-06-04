@@ -12,9 +12,6 @@
     margin: 0 auto;
 }
 
-/* hr {
-    color: rgb(144, 159, 173); 
-} */
 
 /* HEADER */
 header {
@@ -59,6 +56,10 @@ h1 {
     color: #ced1d3;
 }
 
+.button:hover {
+    text-decoration: underline;
+}
+
 /* MAIN */
 .task-container {
     background-color: white;
@@ -73,7 +74,7 @@ main {
 
 
 .task-list {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .title-bar {
