@@ -30,17 +30,13 @@ h1 {
     display: inline;
 }
 
-/* MAIN */
+/* NAV */
+.nav-container {
 
-main {
-    background-color: #F6F8F9;
-    padding: 20px 0;
-}
-
-.task-container {
     background-color: white;
     padding: 20px 40px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 4px;
 }
 
 .button {
@@ -62,6 +58,19 @@ main {
     background-color: white;
     color: #ced1d3;
 }
+
+/* MAIN */
+.task-container {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 0 0 10px 10px;
+}
+
+main {
+    background-color: #F6F8F9;
+    padding: 20px 0;
+}
+
 
 .task-list {
     margin-top: 50px;
