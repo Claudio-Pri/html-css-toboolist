@@ -12,12 +12,17 @@
     margin: 0 auto;
 }
 
+/* hr {
+    color: rgb(144, 159, 173); 
+} */
+
 /* HEADER */
 header {
     padding: 10px;
 }
 
-header img, header h1 {
+header img,
+header h1 {
     vertical-align: middle;
 }
 
@@ -34,6 +39,92 @@ main {
 
 .task-container {
     background-color: white;
-    padding: 20px;
+    padding: 20px 40px;
     border-radius: 10px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 2px;
+
+}
+
+.blue {
+    border: 2px solid #47ADF1;
+    background-color: #47ADF1;
+    color: white;
+}
+
+.white {
+    border: 2px solid #ced1d3;
+    background-color: white;
+    color: #ced1d3;
+}
+
+.task-list {
+    margin-top: 50px;
+}
+
+.title-bar {
+    font-size: large;
+}
+
+.task-item {
+    margin-top: 15px;
+}
+
+.circle-icon {
+    display: inline-block;
+    color: black;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+
+}
+
+.circle-check {
+    color: green;
+    border: 1px solid green;
+}
+
+.cross-check {
+    color: red;
+    border: 1px solid red;
+}
+
+.task-name {
+    font-weight: 600;
+}
+
+/* .lable {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    margin: 0 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    height: 20px;
+    border-radius: 5px;
+
+    text-align: center;
+    line-height: 20px;
+} */
+.lable {
+    display: inline-block;
+    border-radius: 15px;
+    padding: 3px 7px;
+    margin-left: 2px;
+    font-size: 12px;
+
+}
+
+.editorial {
+    border: 2px solid #47ADF1;
+    background-color: #47ADF1;
+    color: white;
 }
