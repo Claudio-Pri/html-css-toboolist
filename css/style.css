@@ -33,7 +33,7 @@ h1 {
 /* MAIN */
 
 main {
-    background-color: rgb(144, 159, 173);
+    background-color: #F6F8F9;
     padding: 20px 0;
 }
 
@@ -102,19 +102,6 @@ main {
     font-weight: 600;
 }
 
-/* .lable {
-    display: inline-block;
-    background-color: blue;
-    color: white;
-    margin: 0 5px;
-    padding: 5px 10px;
-    font-size: 12px;
-    height: 20px;
-    border-radius: 5px;
-
-    text-align: center;
-    line-height: 20px;
-} */
 .lable {
     display: inline-block;
     border-radius: 15px;
@@ -146,4 +133,18 @@ main {
     border: 1px solid #F29E33;
     background-color: #F29E33;
     color: white;
+}
+
+.website {
+    border: 1px solid #D863A1;
+    background-color: #D863A1;
+    color: white;
+
+}
+
+.sales {
+    border: 1px solid #B0C926;
+    background-color: #B0C926;
+    color: white;
+
 }
